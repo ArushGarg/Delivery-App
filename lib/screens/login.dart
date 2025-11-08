@@ -35,12 +35,30 @@ class Login extends StatelessWidget {
                height: 300
                width: 400
                child: Column(
+               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                    children: [
                      TextFormField(
                         decoration: InputDecoration(
+                          fillColor: Color(0xfff5d8e4),
+                          filled: true,
                           hintText: "Email"
                           border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
                           borderSide: BorderSide.none,
+
+      )
+
+      ),
+      )
+                            TextFormField(
+                                obscureText: true,
+                                decoration: InputDecoration(
+                                fillColor: Color(0xfff5d8e4),
+                                  filled: true,
+                                    hintText: "Passwword"
+                                    border: OutlineInputBorder(
+                                   borderRadius: BorderRadius.circular(10),
+                                    borderSide: BorderSide.none,
 
       )
 
