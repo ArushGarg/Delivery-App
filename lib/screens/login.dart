@@ -74,6 +74,12 @@ class Login extends StatelessWidget {
               width: 400,
               child: ElevatedButton(
                 onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Theme.of(context).primaryColor,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
                 child: Text(
                   "Login",
                   style: TextStyle(color: Colors.white, fontSize: 30),
